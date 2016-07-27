@@ -3,25 +3,56 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
-  <title>Starter Template - Materialize</title>
+  <title>Config9 Materialize Frontend Template</title>
 
   <!-- CSS  -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/config9.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
 
+<!-- Inserted navbar-fixed div. Remove if no need the navbar fixed -->
 <div class="navbar-fixed">
-  <nav class="light-blue lighten-1" role="navigation">
+  <nav class="light-blue lighten-1" role="navigation" id="config9-nav">
     <div class="nav-wrapper container">
-      <a id="logo-container" href="#" class="brand-logo">The_Dame</a>
+      <a id="logo-container" href="#" class="brand-logo">
+        <img src="/img/config9w.png" class="">
+      </a>
+      
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#database">Database</a></li>
+        <li><a href="#server">Server</a></li>
+        <li>
+          <a href="#" class="dropdown-button" data-activates="dropdown1" data-beloworigin="true">Programming<i class="material-icons right">arrow_drop_down</i></a>
+        </li>
+        <li><a href="#">Components</a></li>
       </ul>
 
+      <!-- Dropdown Structure -->
+      <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">Python</a></li>
+        <li><a href="#!">Ruby</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Wordpress</a></li>
+      </ul>
+
+      <!-- Dropdown Structure -->
+      <ul id="dropdown2" class="dropdown-content">
+        <li><a href="#!">Python</a></li>
+        <li><a href="#!">Ruby</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Wordpress</a></li>
+      </ul>
+
+      <!-- For Mobile -->
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="#database">Database</a></li>
+        <li><a href="#">Server</a></li>
+        <li>
+          <a href="#" class="dropdown-button" data-activates="dropdown2">Programming<i class="material-icons right">arrow_drop_down</i></a>
+        </li>
+        <li><a href="#server">Components</a></li>
       </ul>
       <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
     </div>
@@ -31,9 +62,9 @@
   <div class="section no-pad-bot" id="index-banner">
     <div class="container">
       <br><br>
-      <h1 class="header center orange-text">Starter Template</h1>
+      <h1 class="header center orange-text">Config9 Materialize Frontend Template</h1>
       <div class="row center">
-        <h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>
+        <h5 class="header col s12 light">A modern, fixed responsive front-end framework based on Material Design inspired by Starter Template</h5>
       </div>
       <div class="row center">
         <a href="http://materializecss.com/getting-started.html" id="download-button" class="btn-large waves-effect waves-light orange">Get Started</a>
@@ -45,7 +76,7 @@
 
 
   <div class="container">
-    <div class="section">
+    <div class="section scrollspy" id="database">
 
       <!--   Icon Section   -->
       <div class="row">
@@ -77,13 +108,47 @@
         </div>
       </div>
 
-    </div>
-    <br><br>
+    </div><!-- end section -->
+    
+    <!-- Contact form -->
+    <div class="section scrollspy" id="server">
+      <h2 class="header center">Contact Us</h2>
+      <div class="row">
+        <form class="col s12" action="" method="POST">
 
-    <div class="section">
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="icon_prefix" type="text" class="validate">
+              <label for="icon_prefix">First Name</label>
+            </div>
+            <div class="input-field col s6">
+              <i class="material-icons prefix">phone</i>
+              <input id="icon_telephone" type="tel" class="validate" >
+              <label for="icon_telephone">Telephone</label>
+            </div>
+          </div>
+          
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">mode_edit</i>
+              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
+              <label for="icon_prefix2">Your Message</label>
+            </div>
+          </div>
 
-    </div>
-  </div>
+          <div class="row">
+            <div class="input-field col s4">
+              <button class="btn waves-effect waves-light" type="submit" name="action">Submit
+              <i class="material-icons right">send</i>
+              </button>
+            </div>
+          </div>
+          
+        </form>
+      </div><!-- .row -->
+    </div><!-- end section -->
+  </div><!-- end .container -->
 
   <footer class="page-footer orange">
     <div class="container">
@@ -125,7 +190,7 @@
   <!--  Scripts-->
   <script src="js/jquery-2.1.1.min.js"></script>
   <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
+  <script src="js/config9.js"></script>
 
   </body>
 </html>
