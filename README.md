@@ -2,7 +2,9 @@
 * By: Loitd (loitranduc@gmail.com) at config9.com
 * Inspired & modified from [Starter Template](http://materializecss.com/getting-started.html)
 
-[config9-material-frontend-template](https://cloud.githubusercontent.com/assets/444086/17187888/2f0e952c-5465-11e6-9738-63f0e5363572.png)
+<a href="#" target="">
+![config9-material-frontend-template](https://cloud.githubusercontent.com/assets/444086/17187888/2f0e952c-5465-11e6-9738-63f0e5363572.png)
+</a>
 
 # Why did I make this?
 I am a Python/NodeJS Fullstack Developer searching for a good, modern, lightweight and fast frontend framework for my next and future projects. Unfortunately, I found that Google Material Design is what I need but I couldn't find any template suits my need. So I grab a [Starter Template](http://materializecss.com/getting-started.html) from [Materializecss](http://materializecss.com) and modify it myown to adapt my needs and call it CMFT (Config9 Material FrontEnd Template).
