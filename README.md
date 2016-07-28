@@ -7,7 +7,7 @@
 </a>
 
 # Why did I make this?
-I am a Python/NodeJS Fullstack Developer searching for a good, modern, lightweight and fast frontend framework for my next and future projects. Unfortunately, I found that Google Material Design is what I need but I couldn't find any template suits my need. So I grab a [Starter Template](http://materializecss.com/getting-started.html) from [Materializecss](http://materializecss.com) and modify it myown to adapt my needs and call it CMFT (Config9 Material FrontEnd Template).
+I am a Python/NodeJS Fullstack Developer searching for a good, modern, lightweight and fast frontend framework for my next and future projects. Unfortunately, I found that Google Material Design is what I need but I couldn't find any template suits my demand. So I grab a [Starter Template](http://materializecss.com/getting-started.html) from [Materializecss](http://materializecss.com) and modified it myown to adapt my needs. I call it CMFT (Config9 Material FrontEnd Template).
 
 Feel free to use CMFT in your projects. I am happy if it could help you someway.
 
@@ -16,6 +16,7 @@ Feel free to use CMFT in your projects. I am happy if it could help you someway.
 Version 1.0
 * Add gulp so you can run dev/test right on your local machine without install any webserver
 * Use self-hosted/local font for material icons so they will be available even you're offline 
+* Add [FontAwesome 4.6.3](http://fontawesome.io/). Thanks to their awesome product.
 * Add navbar with dropdown menu and scrollspy ready for this menu
 * Add styles for scrollspy action (the original add active class to <a> only)
 * Add contact form with icons
@@ -40,8 +41,8 @@ gulp serve
 # FAQ
 
 ## Is this template going to be developed?
-* Yes, I will complete my tool for myself and also publish on this git. I just hope that it could help somebody like me.
+* Yes, I will complete my tool for myself and also publishing on this git. I just hope that it could help somebody like me.
 
-## My I use this in commercial product?
-* Yes, you can. Feel free to use this template on your own.
+## May I use this in commercial products?
+* Yes, you can. Feel free to use this template at your own risk.
 
